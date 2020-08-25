@@ -32,7 +32,9 @@ function Ticket(movieInput, timeInput, ageInput) {
 
 Ticket.prototype.findPrice = function() {
   let value = this.movieInput + this.timeInput + this.ageInput;
-  if (this.movieInput )
+  if (value <= 4) {
+    return $15
+  }
 
 
 
