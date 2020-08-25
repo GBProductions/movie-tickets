@@ -16,6 +16,12 @@
 //Evening - 2 points
 
 
+// if point value of (movie + age group + time) is equal to or less than 4
+//  then return ticket price of $5
+// if point value of (movie + age group + time) is equal to 5
+//  then return ticket price of $10
+// if point value of (movie + age group + time) is equal to 6
+//  then return ticket price of $15
 
 
 function Ticket(movieInput, timeInput, ageInput) {
@@ -24,6 +30,11 @@ function Ticket(movieInput, timeInput, ageInput) {
   this.ageInput = ageInput
 }
 
-Ticket.prototype.outputPrice = function() {
-  
+Ticket.prototype.findPrice = function() {
+  let value = this.movieInput + this.timeInput + this.ageInput;
+  if (this.movieInput )
+
+
+
+
 }
